@@ -1,0 +1,12 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true
+    },
+    "extends": ["eslint:recommended", "google"],
+    "rules": {
+        "max-len": ["error", { "ignoreComments": true, "code": 120 }]
+    }
+}
