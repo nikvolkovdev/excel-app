@@ -1,5 +1,35 @@
-$red: red;
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Roboto&display=swap");
+@import "~normalize.css";
+
+@import "header";
+@import "toolbar";
+@import "formula";
+@import "table";
+@import "dashboard";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-    background: $red;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.excel {
+    position: relative;
+    color: #888;
+    height: 100%;
+    max-width: 100%;
+    font-size: .8rem;
+}
+
+.material-symbols-outlined {
+     font-variation-settings:
+             'FILL' 0,
+             'wght' 400,
+             'GRAD' 0,
+             'opsz' 48
 }
